@@ -22,7 +22,7 @@ If you are saving your progress on freeCodeCamp.org, after getting all the tests
 
 
 
-### **Task**
+### **Tasks**
 1. You should create a database named salon
 2. You should connect to your database, then create tables named
    customers, appointments, and services
