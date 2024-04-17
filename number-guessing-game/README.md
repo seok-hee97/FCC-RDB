@@ -32,3 +32,20 @@ If you are saving your progress on freeCodeCamp.org, after getting all the tests
 14. The message for the first commit should be `Initial commit`
 15. The rest of the commit messages should start with `fix:`, `feat:`, `refactor:`, `chore:`, or `test:`
 16. You should finish your project while on the `main` branch, your working tree should be clean, and you should not have any uncommitted changes
+
+
+
+
+
+Then we create the folder and the git repo:
+
+```
+mkdir number_guessing_game && cd number_guessing_game
+touch number_guess.sh
+chmod a+x number_guess.sh # give it execute permissions
+git init; git checkout -b main
+git add number_guess.sh
+git status
+git commit -m "Initial commit"
+
+```
