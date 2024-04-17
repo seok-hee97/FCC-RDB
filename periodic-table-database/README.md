@@ -56,3 +56,20 @@ If you are saving your progress on freeCodeCamp.org, after getting all the tests
 28. You should delete the non existent element, whose `atomic_number` is `1000`, from the two tables
 29. Your `properties` table should not have a `type` column
 30. You should finish your project while on the `main` branch. Your working tree should be clean and you should not have any uncommitted changes
+
+
+
+
+
+Then we create the folder and the git repo:
+
+```
+mkdir periodic_table && cd periodic_table
+touch element.sh
+chmod a+x element.sh # give it execute permissions
+git init; git checkout -b main
+git add element.sh
+git status
+git commit -m "Initial commit"
+
+```
